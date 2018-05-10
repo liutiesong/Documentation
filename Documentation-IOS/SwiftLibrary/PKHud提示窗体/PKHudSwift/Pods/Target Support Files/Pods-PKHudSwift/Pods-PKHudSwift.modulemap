@@ -1,0 +1,6 @@
+framework module Pods_PKHudSwift {
+  umbrella header "Pods-PKHudSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
