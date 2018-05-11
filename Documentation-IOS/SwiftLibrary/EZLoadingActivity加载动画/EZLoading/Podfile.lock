@@ -1,0 +1,16 @@
+PODS:
+  - EZLoadingActivity (1.01)
+
+DEPENDENCIES:
+  - EZLoadingActivity
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EZLoadingActivity
+
+SPEC CHECKSUMS:
+  EZLoadingActivity: edd7e387e5197b116ce2cccb3fd747ababc2a510
+
+PODFILE CHECKSUM: 5010f19dc42a48de70ee371b10b4e7dd7abca2e7
+
+COCOAPODS: 1.5.0
