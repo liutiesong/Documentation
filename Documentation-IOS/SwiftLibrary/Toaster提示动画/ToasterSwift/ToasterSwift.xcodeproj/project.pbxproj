@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A1F9A4C221FD1FC88D2C54 /* Pods_ToasterSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798C918A4D195ED7C86FCB68 /* Pods_ToasterSwiftTests.framework */; };
+		1BF97A7F4D9A67A5757689B1 /* Pods_ToasterSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D8563843CA6F4DE6DEE7D4 /* Pods_ToasterSwiftUITests.framework */; };
+		6222462520A43DE000A0B22D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222462420A43DE000A0B22D /* AppDelegate.swift */; };
+		6222462720A43DE000A0B22D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222462620A43DE000A0B22D /* ViewController.swift */; };
+		6222462A20A43DE000A0B22D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6222462820A43DE000A0B22D /* Main.storyboard */; };
+		6222462C20A43DE200A0B22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6222462B20A43DE200A0B22D /* Assets.xcassets */; };
+		6222462F20A43DE200A0B22D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6222462D20A43DE200A0B22D /* LaunchScreen.storyboard */; };
+		6222463A20A43DE200A0B22D /* ToasterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222463920A43DE200A0B22D /* ToasterSwiftTests.swift */; };
+		6222464520A43DE200A0B22D /* ToasterSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222464420A43DE200A0B22D /* ToasterSwiftUITests.swift */; };
+		7DF79D533EE0C88ACD667D29 /* Pods_ToasterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859BD6141C344F5A7648AF45 /* Pods_ToasterSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6222463620A43DE200A0B22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6222461920A43DE000A0B22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6222462020A43DE000A0B22D;
+			remoteInfo = ToasterSwift;
+		};
+		6222464120A43DE200A0B22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6222461920A43DE000A0B22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6222462020A43DE000A0B22D;
+			remoteInfo = ToasterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064DCC12573C1FD8EC66FABC /* Pods-ToasterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwift/Pods-ToasterSwift.release.xcconfig"; sourceTree = "<group>"; };
+		6222462120A43DE000A0B22D /* ToasterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToasterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6222462420A43DE000A0B22D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6222462620A43DE000A0B22D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6222462920A43DE000A0B22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6222462B20A43DE200A0B22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6222462E20A43DE200A0B22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6222463020A43DE200A0B22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6222463520A43DE200A0B22D /* ToasterSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasterSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6222463920A43DE200A0B22D /* ToasterSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterSwiftTests.swift; sourceTree = "<group>"; };
+		6222463B20A43DE200A0B22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6222464020A43DE200A0B22D /* ToasterSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasterSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6222464420A43DE200A0B22D /* ToasterSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterSwiftUITests.swift; sourceTree = "<group>"; };
+		6222464620A43DE200A0B22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660CEE33BA694A0F4DD8A641 /* Pods-ToasterSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwiftTests/Pods-ToasterSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		789BABB9201181DC7301A466 /* Pods-ToasterSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwiftTests/Pods-ToasterSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		798C918A4D195ED7C86FCB68 /* Pods_ToasterSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToasterSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859BD6141C344F5A7648AF45 /* Pods_ToasterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToasterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D8563843CA6F4DE6DEE7D4 /* Pods_ToasterSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToasterSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933038D9CB20E71A2610D39E /* Pods-ToasterSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwiftUITests/Pods-ToasterSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC2A44406B993DA9E694F479 /* Pods-ToasterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwift/Pods-ToasterSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F35FEDBF35FC1864C391460A /* Pods-ToasterSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToasterSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToasterSwiftUITests/Pods-ToasterSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6222461E20A43DE000A0B22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF79D533EE0C88ACD667D29 /* Pods_ToasterSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463220A43DE200A0B22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A1F9A4C221FD1FC88D2C54 /* Pods_ToasterSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463D20A43DE200A0B22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF97A7F4D9A67A5757689B1 /* Pods_ToasterSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6222461820A43DE000A0B22D = {
+			isa = PBXGroup;
+			children = (
+				6222462320A43DE000A0B22D /* ToasterSwift */,
+				6222463820A43DE200A0B22D /* ToasterSwiftTests */,
+				6222464320A43DE200A0B22D /* ToasterSwiftUITests */,
+				6222462220A43DE000A0B22D /* Products */,
+				B37BCBDCC81797C96E0493DF /* Pods */,
+				6AFBAB0B6BACB9F974D6D4FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6222462220A43DE000A0B22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6222462120A43DE000A0B22D /* ToasterSwift.app */,
+				6222463520A43DE200A0B22D /* ToasterSwiftTests.xctest */,
+				6222464020A43DE200A0B22D /* ToasterSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6222462320A43DE000A0B22D /* ToasterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6222462420A43DE000A0B22D /* AppDelegate.swift */,
+				6222462620A43DE000A0B22D /* ViewController.swift */,
+				6222462820A43DE000A0B22D /* Main.storyboard */,
+				6222462B20A43DE200A0B22D /* Assets.xcassets */,
+				6222462D20A43DE200A0B22D /* LaunchScreen.storyboard */,
+				6222463020A43DE200A0B22D /* Info.plist */,
+			);
+			path = ToasterSwift;
+			sourceTree = "<group>";
+		};
+		6222463820A43DE200A0B22D /* ToasterSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6222463920A43DE200A0B22D /* ToasterSwiftTests.swift */,
+				6222463B20A43DE200A0B22D /* Info.plist */,
+			);
+			path = ToasterSwiftTests;
+			sourceTree = "<group>";
+		};
+		6222464320A43DE200A0B22D /* ToasterSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6222464420A43DE200A0B22D /* ToasterSwiftUITests.swift */,
+				6222464620A43DE200A0B22D /* Info.plist */,
+			);
+			path = ToasterSwiftUITests;
+			sourceTree = "<group>";
+		};
+		6AFBAB0B6BACB9F974D6D4FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859BD6141C344F5A7648AF45 /* Pods_ToasterSwift.framework */,
+				798C918A4D195ED7C86FCB68 /* Pods_ToasterSwiftTests.framework */,
+				87D8563843CA6F4DE6DEE7D4 /* Pods_ToasterSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37BCBDCC81797C96E0493DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2A44406B993DA9E694F479 /* Pods-ToasterSwift.debug.xcconfig */,
+				064DCC12573C1FD8EC66FABC /* Pods-ToasterSwift.release.xcconfig */,
+				789BABB9201181DC7301A466 /* Pods-ToasterSwiftTests.debug.xcconfig */,
+				660CEE33BA694A0F4DD8A641 /* Pods-ToasterSwiftTests.release.xcconfig */,
+				F35FEDBF35FC1864C391460A /* Pods-ToasterSwiftUITests.debug.xcconfig */,
+				933038D9CB20E71A2610D39E /* Pods-ToasterSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6222462020A43DE000A0B22D /* ToasterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6222464920A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwift" */;
+			buildPhases = (
+				6849E41A6FDBEF70356A5B50 /* [CP] Check Pods Manifest.lock */,
+				6222461D20A43DE000A0B22D /* Sources */,
+				6222461E20A43DE000A0B22D /* Frameworks */,
+				6222461F20A43DE000A0B22D /* Resources */,
+				DDCBB79136DBB2086289F803 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToasterSwift;
+			productName = ToasterSwift;
+			productReference = 6222462120A43DE000A0B22D /* ToasterSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6222463420A43DE200A0B22D /* ToasterSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6222464C20A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwiftTests" */;
+			buildPhases = (
+				DC10DB1DB82C194DDE8D217D /* [CP] Check Pods Manifest.lock */,
+				6222463120A43DE200A0B22D /* Sources */,
+				6222463220A43DE200A0B22D /* Frameworks */,
+				6222463320A43DE200A0B22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6222463720A43DE200A0B22D /* PBXTargetDependency */,
+			);
+			name = ToasterSwiftTests;
+			productName = ToasterSwiftTests;
+			productReference = 6222463520A43DE200A0B22D /* ToasterSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6222463F20A43DE200A0B22D /* ToasterSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6222464F20A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwiftUITests" */;
+			buildPhases = (
+				4F77169B168227471B22FE03 /* [CP] Check Pods Manifest.lock */,
+				6222463C20A43DE200A0B22D /* Sources */,
+				6222463D20A43DE200A0B22D /* Frameworks */,
+				6222463E20A43DE200A0B22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6222464220A43DE200A0B22D /* PBXTargetDependency */,
+			);
+			name = ToasterSwiftUITests;
+			productName = ToasterSwiftUITests;
+			productReference = 6222464020A43DE200A0B22D /* ToasterSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6222461920A43DE000A0B22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "刘铁崧";
+				TargetAttributes = {
+					6222462020A43DE000A0B22D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6222463420A43DE200A0B22D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6222462020A43DE000A0B22D;
+					};
+					6222463F20A43DE200A0B22D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6222462020A43DE000A0B22D;
+					};
+				};
+			};
+			buildConfigurationList = 6222461C20A43DE000A0B22D /* Build configuration list for PBXProject "ToasterSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6222461820A43DE000A0B22D;
+			productRefGroup = 6222462220A43DE000A0B22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6222462020A43DE000A0B22D /* ToasterSwift */,
+				6222463420A43DE200A0B22D /* ToasterSwiftTests */,
+				6222463F20A43DE200A0B22D /* ToasterSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6222461F20A43DE000A0B22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222462F20A43DE200A0B22D /* LaunchScreen.storyboard in Resources */,
+				6222462C20A43DE200A0B22D /* Assets.xcassets in Resources */,
+				6222462A20A43DE000A0B22D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463320A43DE200A0B22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463E20A43DE200A0B22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F77169B168227471B22FE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToasterSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6849E41A6FDBEF70356A5B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToasterSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC10DB1DB82C194DDE8D217D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToasterSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCBB79136DBB2086289F803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ToasterSwift/Pods-ToasterSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToasterSwift/Pods-ToasterSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6222461D20A43DE000A0B22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222462720A43DE000A0B22D /* ViewController.swift in Sources */,
+				6222462520A43DE000A0B22D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463120A43DE200A0B22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222463A20A43DE200A0B22D /* ToasterSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6222463C20A43DE200A0B22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222464520A43DE200A0B22D /* ToasterSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6222463720A43DE200A0B22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6222462020A43DE000A0B22D /* ToasterSwift */;
+			targetProxy = 6222463620A43DE200A0B22D /* PBXContainerItemProxy */;
+		};
+		6222464220A43DE200A0B22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6222462020A43DE000A0B22D /* ToasterSwift */;
+			targetProxy = 6222464120A43DE200A0B22D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6222462820A43DE000A0B22D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6222462920A43DE000A0B22D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6222462D20A43DE200A0B22D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6222462E20A43DE200A0B22D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6222464720A43DE200A0B22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6222464820A43DE200A0B22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6222464A20A43DE200A0B22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2A44406B993DA9E694F479 /* Pods-ToasterSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6222464B20A43DE200A0B22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064DCC12573C1FD8EC66FABC /* Pods-ToasterSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6222464D20A43DE200A0B22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789BABB9201181DC7301A466 /* Pods-ToasterSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---.ToasterSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToasterSwift.app/ToasterSwift";
+			};
+			name = Debug;
+		};
+		6222464E20A43DE200A0B22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660CEE33BA694A0F4DD8A641 /* Pods-ToasterSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---.ToasterSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToasterSwift.app/ToasterSwift";
+			};
+			name = Release;
+		};
+		6222465020A43DE200A0B22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35FEDBF35FC1864C391460A /* Pods-ToasterSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---.ToasterSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToasterSwift;
+			};
+			name = Debug;
+		};
+		6222465120A43DE200A0B22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933038D9CB20E71A2610D39E /* Pods-ToasterSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCRVA5V269;
+				INFOPLIST_FILE = ToasterSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motion.test.---.ToasterSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToasterSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6222461C20A43DE000A0B22D /* Build configuration list for PBXProject "ToasterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6222464720A43DE200A0B22D /* Debug */,
+				6222464820A43DE200A0B22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6222464920A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6222464A20A43DE200A0B22D /* Debug */,
+				6222464B20A43DE200A0B22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6222464C20A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6222464D20A43DE200A0B22D /* Debug */,
+				6222464E20A43DE200A0B22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6222464F20A43DE200A0B22D /* Build configuration list for PBXNativeTarget "ToasterSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6222465020A43DE200A0B22D /* Debug */,
+				6222465120A43DE200A0B22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6222461920A43DE000A0B22D /* Project object */;
+}

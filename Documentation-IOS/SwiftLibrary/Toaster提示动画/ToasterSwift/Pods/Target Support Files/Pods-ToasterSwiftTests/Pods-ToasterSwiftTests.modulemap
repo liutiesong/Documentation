@@ -1,0 +1,6 @@
+framework module Pods_ToasterSwiftTests {
+  umbrella header "Pods-ToasterSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
